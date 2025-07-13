@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>José Antonio, Tu Asesor Inmobiliario</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+    <style>
+      #btnSubir {
+        width: 50px;
+        height: 50px;
+        position: fixed;
+        bottom: 20px;
+        right: 40px;
+        z-index: 9999;
+        display: block;
+      }
+    </style>
+  </head>
+  <body style="background: rgb(253, 253, 253) !important">
+    <div id="top" class="container">
+      <header
+        style="background: rgb(253, 253, 253) !important"
+        class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom fixed-top"
+      >
+        <a
+          href="/"
+          class="d-none d-md-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
+        >
+          <svg class="bi me-2" width="40" height="32" aria-hidden="true">
+            <use xlink:href="#bootstrap"></use>
+          </svg>
+          <h1 class="fs-5 fw-bold">José Antonio Jurado Quesada.</h1>
+        </a>
+        <ul class="nav nav-pills text-uppercase fw-bold me-lg-5">
+          <li class="nav-item">
+            <a
+              href="#profesional"
+              class="nav-link text-white"
+              style="background: #dbc86a"
+              aria-current="page"
+            >
+              perfil profesional</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="#experiencia" class="nav-link text-black">Experiencia</a>
+          </li>
+          <li class="nav-item">
+            <a href="#herramientas" class="nav-link text-black"
+              >Herramientas
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#proyectos" class="nav-link text-black">Proyectos</a>
+          </li>
+          <li class="nav-item">
+            <a href="#faqs" class="nav-link text-black">FAQS</a>
+          </li>
+        </ul>
+      </header>
+    </div>
+    <div class="container col-xxl-8 mt-5 px-4 py-5">
+      <div class="row flex-lg-row-reverse align-items-center g-5 pt-3">
+        <div class="col-10 col-sm-8 col-lg-6">
+          <img
+            id="profesional"
+            src="assets/Agente_Inmobiliario.jpg"
+            class="d-block mx-lg-auto img-fluid"
+            alt="Agente Inmobiliario José Antonio"
+            width="700"
+            height="500"
+            loading="lazy"
+          />
+        </div>
+        <div class="col-lg-6">
+          <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">
+            <span style="color: #dbc86a">José Antonio,</span>
+            tú Asesor Inmobiliario.
+          </h1>
+          <p class="lead">
+            <span class="fw-bold"
+              >Quiero formar parte de una agencia inmobiliaria</span
+            >
+            como asesor, donde pueda
+            <span class="link-underline fw-bold">
+              aportar un alto nivel de empatía y compromiso</span
+            >
+            para ofrecer un
+            <span class="fw-bold"
+              >servicio cercano y orientado a las necesidades del cliente</span
+            >
+          </p>
+          <div
+            class="d-flex flex-row justify-content-evenly align-items-center"
+          >
+            <div>
+              <a><i class="bi bi-telephone-fill fs-5"></i> (+34) 647 007 663</a>
+              <p>
+                <i class="bi bi-house-fill fs-5"></i> Carrer García Estrada, 35
+                08560
+              </p>
+              <p><i class="bi bi-bluesky fs-5"></i> MANLLEU (Barcelona)</p>
+              <a
+                class="text-dark text-decoration-none"
+                href="mailto:tonyjurado779@outlook.es"
+                ><i class="bi bi-envelope-arrow-up-fill fs-4"></i>
+                tonyjurado779@outlook.es</a
+              >
+            </div>
+            <div>
+              <h3 class="fw-bold fs-4 mt-3">Idiomas</h3>
+              <p>
+                Catalán (Nativo)<br />
+                Castellano (Nativo)<br />
+                Inglés (A1)<br />
+                Italiano escrito (A1)
+              </p>
+            </div>
+          </div>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start mt-4">
+            <a href="#herramientas" class="btn btn-dark btn-lg px-4 me-md-2">
+              Herramientas
+            </a>
+            <a
+              href="#proyectos"
+              style="background: #dbc86a"
+              class="text-white btn btn-lg px-4"
+            >
+              Proyectos
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container py-4">
+      <header id="experiencia" class="pb-3 mb-4 border-bottom">
+        <h2 class="fw-bold text-uppercase">Experiencia profesional</h2>
+      </header>
+      <div id="experiencias-dinamicas"></div>
+    </div>
+    <div id="herramientas" class="container px-4 py-5">
+      <h2 class="pb-2 border-bottom fw-bold text-uppercase">
+        Mis habilidades y herramientas
+      </h2>
+      <div class="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-4">
+        <div class="col d-flex flex-column align-items-start gap-2">
+          <h2 class="fw-bold text-black text-uppercase">
+            <span style="color: #dbc86a"
+              >Siempre pongo mis mejores ganas,
+            </span>
+            usando estas herramientas...
+          </h2>
+          <div id="tools-dinamicas"></div>
+          <!--<a href="#" class="btn btn-dark btn-lg">test</a>-->
+        </div>
+        <div class="col">
+          <div class="row row-cols-1 row-cols-sm-2 g-4"></div>
+        </div>
+      </div>
+    </div>
+    <div class="container py-4">
+      <header id="proyectos" class="pb-3 mb-4 border-bottom">
+        <h2 class="fw-bold text-uppercase">Mis proyectos</h2>
+      </header>
+      <div id="proyectos-dinamicos"></div>
+
+      <!-- Sección de características -->
+      <!-- <div class="row align-items-md-stretch">
+        <div class="col-md-6">
+          <div class="h-100 p-5 rounded-3" style="background: #dbc86a">
+            <h2 class="text-white">Ubicación estratégica</h2>
+            <p>
+              Acceso directo a avenidas principales, cercano a centros
+              comerciales, hospitales y escuelas. Ideal para familias modernas.
+            </p>
+            <button class="btn btn-light" type="button">Ver ubicación</button>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="h-100 p-5 bg-body-tertiary border rounded-3">
+            <h2>Diseño moderno y seguro</h2>
+            <p>
+              Espacios bien distribuidos, vigilancia 24/7, control de acceso y
+              acabados contemporáneos con excelente iluminación natural.
+            </p>
+            <button class="btn btn-secondary" type="button">Ver planos</button>
+          </div>
+        </div>
+      </div> -->
+      <a href="#top" id="btnSubir" class="btn btn-dark rounded-3 fs-4"
+        ><i class="bi bi-arrow-up-circle-fill"></i
+      ></a>
+      <footer class="p-3 mt-4 border-top bg-dark text-white">
+        © Copiright 2025
+      </footer>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.min.js"
+      integrity="sha384-7qAoOXltbVP82dhxHAUje59V5r2YsVfBafyUDxEdApLPmcdhBPg1DKg1ERo0BZlK"
+      crossorigin="anonymous"
+    ></script>
+    <script src="assets/js/dataExperience.js"></script>
+    <script src="assets/js/dataTools.js"></script>
+    <script src="assets/js/dataToolsCards.js"></script>
+    <script src="assets/js/dataProjects.js"></script>
+  </body>
+</html>
