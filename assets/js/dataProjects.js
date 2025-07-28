@@ -1,10 +1,10 @@
 const projects = [
   {
     title: "Aprendizaje y Pasión por el Sector Inmobiliario y ventas.<br>",
-    description: `
-   - Me dedico a aprender de forma autodidacta sobre el mundo de las ventas y las propiedades.<br>
-  - Elaboro mis propios apuntes y los repaso diariamente, profundizando en información online relacionada con bienes raíces y conocimientos de informática básica.<br>
-  - Me gusta ver vídeos de YouTube sobre ventas, marketing y propiedades, y sigo a profesionales destacados en el sector inmobiliario.<br>
+    description: `<br>
+   - Me dedico a aprender de forma autodidacta sobre el mundo de las ventas y las propiedades.<br><br>
+  - Elaboro mis propios apuntes y los repaso diariamente, profundizando en información online relacionada con bienes raíces y conocimientos de informática básica.<br><br>
+  - Me gusta ver vídeos de YouTube sobre ventas, marketing y propiedades, y sigo a profesionales destacados en el sector inmobiliario.<br><br>
   - Además, disfruto explorando páginas web de propiedades en distintas zonas residenciales y ubicaciones de España y Cataluña, informándome sobre los precios de viviendas y terrenos.
       `,
     button: {
@@ -20,8 +20,8 @@ function renderProjects() {
     .map(
       (project) => `
       <div  style="background: #dbc86a" class="p-3 px-5 mb-4 rounded-3">
-        <div class="container-fluid py-5">
-          <h1 class="display-5 fw-bold">${project.title}</h1>
+        <div class="container-fluid py-3">
+          <h1 class="display-5 fw-bold bg-dark text-white p-3 px-5 rounded-1">${project.title}</h1>
           <p class="col-md-8 fs-4">
             ${project.description}
 

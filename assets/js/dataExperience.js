@@ -1,5 +1,13 @@
 const experiences = [
   {
+    id: "cambio_profesion",
+    title: "Cambio de Profesión",
+    resumen:
+      "En 2025, decidí dar un giro a mi carrera profesional y formarme como agente inmobiliario. Desde entonces, he estado adquiriendo conocimientos y habilidades en el sector inmobiliario.",
+    detalle:
+      "Durante este período realicé una pausa profesional estratégica con el objetivo de reflexionar, redefinir mis metas laborales y prepararme para una transición hacia una nueva etapa profesional. Aproveché este tiempo para actualizar mis conocimientos, explorar nuevas oportunidades y alinear mi trayectoria con mis intereses actuales.",
+  },
+  {
     id: "almacen",
     title: "Gestión de Almacén y Montaje",
     resumen:
@@ -31,6 +39,14 @@ const experiences = [
     detalle:
       "Contrato de prácticas. Durante el período de prácticas que realicé de Diciembre de 2010 a Enero del 2011, mi única tarea era reponer correctamente, limpiar las estanterías y ordenar correctamente cada producto, asimismo también iba al almacén con un transpalet, llevarlo a la sección del supermercado a reponer cada producto en su sitio, en estas prácticas me dí cuenta y aprendí lo que era ser ordenado, cuidadoso y sobre todo aprendí a ser disciplinado.",
   },
+  {
+    id: "reponedor",
+    title: "Repositor de Supermercado",
+    resumen:
+      "Realicé prácticas como reponedor en un supermercado entre diciembre de 2010 y enero de 2011. Mis tareas incluían reponer productos, limpiar estanterías y mantener el orden. También transportaba mercancía desde el almacén usando un transpalet. Esta experiencia me enseñó a ser ordenado, cuidadoso y disciplinado.",
+    detalle:
+      "Contrato de prácticas. Durante el período de prácticas que realicé de Diciembre de 2010 a Enero del 2011, mi única tarea era reponer correctamente, limpiar las estanterías y ordenar correctamente cada producto, asimismo también iba al almacén con un transpalet, llevarlo a la sección del supermercado a reponer cada producto en su sitio, en estas prácticas me dí cuenta y aprendí lo que era ser ordenado, cuidadoso y sobre todo aprendí a ser disciplinado.",
+  },
 ];
 function renderExperiences() {
   const container = document.getElementById("experiencias-dinamicas");
@@ -38,7 +54,7 @@ function renderExperiences() {
     .map(
       (exp) => `
       <div style="background: #eeeeeeff;" class="p-5 mb-4 rounded-3">
-        <div class="container-fluid py-5">
+        <div class="container-fluid py-1">
           <h1 class="display-5 fw-bold">${exp.title}</h1>
           <p class="col-md-8 fs-4">${exp.resumen}</p>
           <button
